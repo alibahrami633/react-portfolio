@@ -4,35 +4,35 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="fixed-bottom box-shadow-style">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 left-align">
-            <div class="icon-anchor inline-block">
-              <i class="fab fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/ali-bahrami-baa87325/" target="_blank">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 left-align">
+            <div className="icon-anchor inline-block">
+              <i className="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/ali-bahrami-baa87325/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
                         </a>
             </div>
-            <div class="icon-anchor inline-block">
-              <i class="fab fa-github"></i>
-              <a href="https://github.com/alibahrami633" target="_blank">
+            <div className="icon-anchor inline-block">
+              <i className="fab fa-github"></i>
+              <a href="https://github.com/alibahrami633" target="_blank" rel="noopener noreferrer">
                 Github
                         </a>
             </div>
-            <div class="icon-anchor inline-block">
-              <i class="fab fa-facebook"></i>
-              <a href="https://www.facebook.com/ali.bahrami633" target="_blank">
+            <div className="icon-anchor inline-block">
+              <i className="fab fa-facebook"></i>
+              <a href="https://www.facebook.com/ali.bahrami633" target="_blank" rel="noopener noreferrer">
                 Facebook
                         </a>
             </div>
-            <div class="icon-anchor inline-block">
-              <i class="fab fa-twitter"></i>
-              <a href="https://twitter.com/AliBahr32339771" target="_blank">
+            <div className="icon-anchor inline-block">
+              <i className="fab fa-twitter"></i>
+              <a href="https://twitter.com/AliBahr32339771" target="_blank" rel="noopener noreferrer">
                 Twitter
                         </a>
             </div>
           </div>
-          <div class="col-md-6 right-align">
+          <div className="col-md-6 right-align">
             <span>&copy; All Rights Reserved.</span>
           </div>
         </div>
