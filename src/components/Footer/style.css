@@ -1,15 +1,60 @@
-.footer {
-  min-height: 200px;
-  background: #E5E5E5;
-  position: relative;
+footer {
+  color: rgb(160, 160, 160);
   text-align: center;
+  background-color: #3f3f3f;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  height: 50px;
 }
 
-.footer span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 3px;
-  background: #B8B8B8;
+footer a {
+  color: #e0dcdc;
 }
+
+footer i {
+  margin-right:0.25em;
+  margin-left: 1em;
+}
+
+a, a:focus, a:hover {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 217, 0);
+  text-decoration: none;
+}
+
+/* copyright section */
+footer span {
+  width: 50%;
+  margin: auto;
+  font-family: tahoma;
+  font-size: small;
+}
+
+footer i, i {
+  color: white;
+}
+
+.box-shadow-style {
+  /* background-color: #61892F; */
+  color: white;
+  box-shadow: 1px 1px 10px 3px rgb(56, 56, 56);
+}
+
+.left-align {
+  text-align: left;
+}
+
+.icon-anchor {
+  margin-left: 0.5rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.right-align {
+  text-align: right;
+}
+
+
