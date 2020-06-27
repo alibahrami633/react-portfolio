@@ -1,20 +1,60 @@
 import React from "react";
-import { Container, Row } from "../components/Grid";
+import { Container, Row, Col } from "../components/Grid";
 import Project from "../components/Project";
-import project1Url from "../images/evch-finder.png"
+import project1Url from "../images/evch-finder.png";
+import project2Url from "../images/workdayScheduler.png";
+import project3Url from "../images/weatherDashboard.png";
+import project4Url from "../images/randomPasswordGenrator.png";
 
 function Portfolio() {
-    let project1 = {
-        headTitle: "Electric Vehicle Charging Station Finder",
-        imageUrl: project1Url,
-        alt: "EVCH Finder",
-        demoUrl: "https://alibahrami633.github.io/EVCS-Finder/",
-        repoUrl: "https://github.com/alibahrami633/EVCS-Finder"
-    };
+    const projects = [
+        {
+            headTitle: "Electric Vehicle Charging Station Finder",
+            imageUrl: project1Url,
+            alt: "EVCH Finder",
+            demoUrl: "https://alibahrami633.github.io/EVCS-Finder/",
+            repoUrl: "https://github.com/alibahrami633/EVCS-Finder"
+        },
+        {
+            headTitle: "Workday Scheduler",
+            imageUrl: project2Url,
+            alt: "Workday Scheduler",
+            demoUrl: "https://alibahrami633.github.io/WorkdayScheduler/",
+            repoUrl: "https://github.com/alibahrami633/WorkdayScheduler"
+        },
+        {
+            headTitle: "Weather Dashboard",
+            imageUrl: project3Url,
+            alt: "Weather Dashboard",
+            demoUrl: "https://alibahrami633.github.io/WeatherDashboard/",
+            repoUrl: "https://github.com/alibahrami633/WeatherDashboard"
+        },
+        {
+            headTitle: "Random Password Generator",
+            imageUrl: project4Url,
+            alt: "Random Password Generator",
+            demoUrl: "https://alibahrami633.github.io/RandomPasswordGenerator/Develop/",
+            repoUrl: "https://github.com/alibahrami633/RandomPasswordGenerator"
+        }
+    ];
+
     return (
         <Container>
             <Row>
-                <Project projectInfo={project1} />
+                <Col size={"md-6"}>
+                    <Project projectInfo={projects[0]} />
+                </Col>
+                <Col size={"md-6"}>
+                    <Project projectInfo={projects[1]} />
+                </Col>
+            </Row>
+            <Row>
+                <Col size={"md-6"}>
+                    <Project projectInfo={projects[2]} />
+                </Col>
+                <Col size={"md-6"}>
+                    <Project projectInfo={projects[3]} />
+                </Col>
             </Row>
         </Container>);
 }
