@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
+
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/">
@@ -9,18 +11,35 @@ function Nav() {
 
       <div className="navbar-collapse">
         <ul className="navbar-nav mr-auto">
-          <li className="nave-item">
-            <a className="nav-link" href="/">Home</a>
+          <li className="nav-item">
+            <NavLink
+              to="/home"
+              className="nav-link"
+              activeClassName="nav-link active"
+            >
+              Home
+            </NavLink>
           </li>
-          <li className="nave-item">
-            <a className="nav-link" href="/portfolio">Portfolio</a>
+          <li className="nav-item">
+            <NavLink
+              to="/portfolio"
+              className="nav-link"
+              activeClassName="nav-link active"
+            >
+              Portfolio
+            </NavLink>
           </li>
-          <li className="nave-item">
-            <a className="nav-link" href="/contact">Contact</a>
+          <li className="nav-item">
+            <NavLink
+              to="/contact"
+              className="nav-link"
+              activeClassName="active"
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
-
     </nav>
   );
 }

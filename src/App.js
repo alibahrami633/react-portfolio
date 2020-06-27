@@ -5,28 +5,27 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import NoMatch from "./pages/NoMatch";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper"
+
+
 
 function App() {
   return (
     <Router>
       <>
         <Nav />
-        <Switch>
-          <Route exact path={["/", "/home"]}>
-            <Home />
-          </Route>
-          <Route exact path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route>
-            <NoMatch />
-          </Route>
-        </Switch>
+        <Wrapper>
+          <Switch>
+            <Route exact path={["/", "/home"]} component={Home} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contact" component={Contact} />
+            <Route component={NoMatch} />
+          </Switch>
+        </Wrapper>
+        <Footer />
       </>
-    </Router>
+    </Router >
   );
 }
 
