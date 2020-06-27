@@ -1,10 +1,11 @@
 import React from "react";
+import { Container } from "../components/Grid"
 
 function Contact() {
     return (
-        <div>
+        <Container>
             This is contact page
-        </div>);
+        </Container>);
 }
 
 export default Contact;

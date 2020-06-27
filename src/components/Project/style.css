@@ -1,0 +1,27 @@
+.window-mode {
+    border: 1px solid rgb(169, 173, 163);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    /* text-align: left; */
+}
+
+.window-mode a {
+    text-decoration: none;    
+}
+
+.window-mode h5 {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(169, 173, 163);
+    padding-bottom: 0.5rem;
+}
+
+.portfolio-image {
+    width: 100%;
+    padding: 1rem;
+}
+
+.project-links {
+    text-align: center;
+}

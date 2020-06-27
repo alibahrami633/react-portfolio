@@ -1,10 +1,12 @@
 import React from "react";
+import { Container } from "../components/Grid";
 
 function Home() {
     return (
-        <div>
+        <Container>
             This is home page
-        </div>);
+        </Container>
+    );
 }
 
 export default Home;
