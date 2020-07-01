@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "../components/Grid";
 import Project from "../components/Project";
+import Pageheader from "../components/Pageheader";
+import Maincontent from "../components/Maincontent"
+import "./style.css";
+
 import project1Url from "../images/evch-finder.png";
 import project2Url from "../images/workdayScheduler.png";
 import project3Url from "../images/weatherDashboard.png";
@@ -41,22 +45,30 @@ function Portfolio() {
     return (
         <Container>
             <Row>
-                <Col size={"md-6"}>
-                    <Project projectInfo={projects[0]} />
-                </Col>
-                <Col size={"md-6"}>
-                    <Project projectInfo={projects[1]} />
+                <Col size="md-12">
+                    <Pageheader>Portfolio</Pageheader>
                 </Col>
             </Row>
-            <Row>
-                <Col size={"md-6"}>
-                    <Project projectInfo={projects[2]} />
-                </Col>
-                <Col size={"md-6"}>
-                    <Project projectInfo={projects[3]} />
-                </Col>
-            </Row>
-        </Container>);
+            <Maincontent>
+                <Row>
+                    <Col size={"md-6"}>
+                        <Project projectInfo={projects[0]} />
+                    </Col>
+                    <Col size={"md-6"}>
+                        <Project projectInfo={projects[1]} />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size={"md-6"}>
+                        <Project projectInfo={projects[2]} />
+                    </Col>
+                    <Col size={"md-6"}>
+                        <Project projectInfo={projects[3]} />
+                    </Col>
+                </Row>
+            </Maincontent>
+        </Container>
+    );
 }
 
 export default Portfolio;

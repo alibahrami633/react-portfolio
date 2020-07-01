@@ -2,15 +2,17 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Container } from "../Grid";
 import "./style.css";
+import aliImageUrl from "../../images/pic-ali.jpg";
 
 function Nav() {
 
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <Container>
-        <a className="navbar-brand" href="/">
-          Ali Bahrami
-      </a>
+        <div className="navbar-header">
+          <img src={aliImageUrl} alt="Ali Bahrami" />
+          <a href="/home" className="navbar-brand">Ali Bahrami</a>
+        </div>
         <div>
           <div className="collapse navbar-collapse " id="collapsibleNavbar">
             <ul className="nav navbar-nav mr-auto">
