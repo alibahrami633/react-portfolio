@@ -5,10 +5,10 @@ import Pageheader from "../components/Pageheader";
 import Maincontent from "../components/Maincontent"
 import "./style.css";
 
-import project1Url from "../images/evch-finder.png";
-import project2Url from "../images/workdayScheduler.png";
-import project3Url from "../images/weatherDashboard.png";
-import project4Url from "../images/randomPasswordGenrator.png";
+import project1Url from "../assets/images/evch-finder.png";
+import project2Url from "../assets/images/workdayScheduler.png";
+import project3Url from "../assets/images/weatherDashboard.png";
+import project4Url from "../assets/images/randomPasswordGenrator.png";
 
 function Portfolio() {
     const projects = [
@@ -51,18 +51,18 @@ function Portfolio() {
             </Row>
             <Maincontent>
                 <Row>
-                    <Col size={"md-6"}>
+                    <Col size="md-6">
                         <Project projectInfo={projects[0]} />
                     </Col>
-                    <Col size={"md-6"}>
+                    <Col size="md-6">
                         <Project projectInfo={projects[1]} />
                     </Col>
                 </Row>
                 <Row>
-                    <Col size={"md-6"}>
+                    <Col size="md-6">
                         <Project projectInfo={projects[2]} />
                     </Col>
-                    <Col size={"md-6"}>
+                    <Col size="md-6">
                         <Project projectInfo={projects[3]} />
                     </Col>
                 </Row>

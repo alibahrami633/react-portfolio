@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Container } from "../Grid";
 import "./style.css";
-import aliImageUrl from "../../images/pic-ali.jpg";
+import aliImageUrl from "../../assets/images/pic-ali.jpg";
 
 function Nav() {
 

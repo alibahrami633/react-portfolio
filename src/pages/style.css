@@ -20,3 +20,43 @@
 .icon-anchor {
     margin-left: 0.5rem;
 }
+
+.image-holder {
+    padding: 0rem 0.5rem 0.5rem 0rem; 
+    margin-bottom: 0.5rem;   
+}
+
+.poem {
+    font: 14px Baskerville, "Palatino Linotype", "Times New Roman", Times, serif;
+    margin: auto;
+	padding: 20px 0;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.name-cite {
+    font-weight: normal;
+    text-align: center;
+    color: #666;
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+.name-cite:before {
+	content: '— ';
+}
+			
+.name-cite:after {
+	content: ' —';
+}
+
+/* make the first letter of the poem large */
+.poem:first-letter {
+	float: left;
+	font-size: 38px;
+	line-height: 1;
+	margin: 2px 5px 0 0;
+	}
+
+/* *****************************  */

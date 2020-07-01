@@ -3,6 +3,8 @@ import { Container, Row, Col } from "../components/Grid";
 import Pageheader from "../components/Pageheader";
 import Maincontent from "../components/Maincontent"
 import "./style.css";
+import resumeUrl from "../assets/documents/AliBahrami-Resume.pdf";
+import aliPicUrl from "../assets/images/pic-ali.jpg";
 
 function Home() {
     return (
@@ -16,8 +18,18 @@ function Home() {
                 <Row>
                     <Col size="md-6">
                         <Row>
-                            <Col size="md-12 xl-5"></Col>
-                            <Col size="md-12 xl-7"></Col>
+                            <Col size="md-12 xl-7">
+                                <div class="poem">
+                                    <p>Where ever I live, <br />
+                                    the sky is mine...</p>
+                                    <h2 class="name-cite">Sohrab Sepehri</h2>
+                                </div>
+                            </Col>
+                            <Col size="md-12 xl-5">
+                                <div class="image-holder">
+                                    <img src={aliPicUrl} alt="Ali Bahrami" />
+                                </div>
+                            </Col>
                         </Row>
                         <Row>
                             <Col size="md-12">
@@ -49,7 +61,7 @@ function Home() {
                     </Col>
                     <Col size="md-6">
                         <Row>
-                            <Col size="md-6">
+                            <Col size="md-4">
                                 <fieldset>
                                     <legend className="legend">
                                         <h4>Skills</h4>
@@ -71,7 +83,7 @@ function Home() {
                                     </ul>
                                 </fieldset>
                             </Col>
-                            <Col size="md-6">
+                            <Col size="md-4">
                                 <fieldset>
                                     <legend className="legend">
                                         <h4>Interests</h4>
@@ -87,40 +99,38 @@ function Home() {
                                     </ul>
                                 </fieldset>
                             </Col>
-                        </Row>
-                        <Row>
-                            <Col size="md-12">
+                            <Col size="md-4">
                                 <fieldset>
                                     <legend className="legend">
                                         <h4>Links</h4>
                                     </legend>
                                     <div className="icon-anchor">
                                         <i className="fas fa-file-pdf"></i>
-                                        <a href="assets/documents/resume.pdf" target="_blank">
+                                        <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
                                             Resume
                                     </a>
                                     </div>
                                     <div className="icon-anchor">
                                         <i className="fab fa-linkedin"></i>
-                                        <a href="https://www.linkedin.com/in/ali-bahrami-baa87325/" target="_blank">
+                                        <a href="https://www.linkedin.com/in/ali-bahrami-baa87325/" target="_blank" rel="noopener noreferrer">
                                             LinkedIn
                                     </a>
                                     </div>
                                     <div className="icon-anchor">
                                         <i className="fab fa-github"></i>
-                                        <a href="https://github.com/alibahrami633" target="_blank">
+                                        <a href="https://github.com/alibahrami633" target="_blank" rel="noopener noreferrer">
                                             Github
                                     </a>
                                     </div>
                                     <div className="icon-anchor">
                                         <i className="fab fa-facebook"></i>
-                                        <a href="https://www.facebook.com/ali.bahrami633" target="_blank">
+                                        <a href="https://www.facebook.com/ali.bahrami633" target="_blank" rel="noopener noreferrer">
                                             Facebook
                                     </a>
                                     </div>
                                     <div className="icon-anchor">
                                         <i className="fab fa-twitter"></i>
-                                        <a href="https://twitter.com/AliBahr32339771" target="_blank">
+                                        <a href="https://twitter.com/AliBahr32339771" target="_blank" rel="noopener noreferrer">
                                             Twitter
                                     </a>
                                     </div>
