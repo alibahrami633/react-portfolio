@@ -1,0 +1,22 @@
+.cool-link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(36, 36, 36);
+    transition: width .2s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+
+.icon-anchor {
+    margin-left: 0.5rem;
+}
