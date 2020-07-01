@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "../components/Grid";
 import Pageheader from "../components/Pageheader";
 import Maincontent from "../components/Maincontent"
 import { Input, TextArea, FormBtn } from "../components/Form";
+import Utilities from "../utils/API"
 import "./style.css";
 
 function Contact() {
@@ -13,16 +14,26 @@ function Contact() {
         setFormObject({ ...formObject, [name]: value })
     };
 
-    function handleFormSubmit(event) {
+    async function handleFormSubmit(event) {
         event.preventDefault();
         if (formObject.name && formObject.email && formObject.message) {
-            //   API.saveBook({
-            //     title: formObject.title,
-            //     author: formObject.author,
-            //     synopsis: formObject.synopsis
-            //   })
-            //     .then(res => loadBooks())
-            //     .catch(err => console.log(err));
+            let name = formObject.name.trim();
+            let email = formObject.email.trim();
+            let message = formObject.message.trim();
+            let emailMessage = `Ali Bahrami Contact Form Submission | Name: ${name} | Email: ${email} | Message: ${message}`;
+
+            try {
+                const result = await Utilities.sendMail(emailMessage);
+                if (result) {
+                    document.getElementById("contact-form").reset();
+                    alert("Success!");
+                }
+            } catch (error) {
+                console.log(error)
+                alert("Failure!");
+            }
+
+
         }
     };
 
@@ -36,7 +47,7 @@ function Contact() {
             <Maincontent>
                 <Row>
                     <Col size="md-6">
-                        <form>
+                        <form id="contact-form">
                             <Input
                                 onChange={handleInputChange}
                                 name="name"
@@ -56,7 +67,7 @@ function Contact() {
                                 disabled={!(formObject.name && formObject.email && formObject.message)}
                                 onClick={handleFormSubmit}
                             >
-                                Send
+                                Send Message
                             </FormBtn>
                         </form>
                     </Col>

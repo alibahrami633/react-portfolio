@@ -19,14 +19,14 @@ function Home() {
                     <Col size="md-6">
                         <Row>
                             <Col size="md-12 xl-7">
-                                <div class="poem">
+                                <div className="poem">
                                     <p>Where ever I live, <br />
                                     the sky is mine...</p>
-                                    <h2 class="name-cite">Sohrab Sepehri</h2>
+                                    <h2 className="name-cite">Sohrab Sepehri</h2>
                                 </div>
                             </Col>
                             <Col size="md-12 xl-5">
-                                <div class="image-holder">
+                                <div className="image-holder">
                                     <img src={aliPicUrl} alt="Ali Bahrami" />
                                 </div>
                             </Col>
