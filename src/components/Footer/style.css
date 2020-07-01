@@ -19,7 +19,7 @@ footer i {
 
 footer a:focus, footer a:hover {
   
-  color: rgb(255, 217, 0);
+  color: #ffcc00;
   text-decoration: none;
 }
 footer a {

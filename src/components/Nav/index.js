@@ -11,7 +11,7 @@ function Nav() {
       <Container>
         <div className="navbar-header">
           <img src={aliImageUrl} alt="Ali Bahrami" />
-          <a href="/home" className="navbar-brand">Ali Bahrami</a>
+          <a href="/home" className="navbar-brand" style={{ color: '#ffcc00' }}>Ali Bahrami</a>
         </div>
         <div>
           <div className="collapse navbar-collapse " id="collapsibleNavbar">

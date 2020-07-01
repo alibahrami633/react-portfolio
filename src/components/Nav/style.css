@@ -4,6 +4,10 @@
     padding-right: 0.5rem;
 }
 
+.active {
+    color: #ffcc00;
+}
+
 @media screen and (min-width: 576px) {
     #collapsibleNavbar {
         margin-left: 500px;
