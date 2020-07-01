@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "../components/Grid";
 import Pageheader from "../components/Pageheader";
+import Modal from "../components/Modal";
 import Maincontent from "../components/Maincontent"
 import { Input, TextArea, FormBtn } from "../components/Form";
-import Utilities from "../utils/API"
+import Utilities from "../utils/API";
 import "./style.css";
 
 function Contact() {
@@ -77,27 +78,3 @@ function Contact() {
 }
 
 export default Contact;
-
-/*
- <Row>
-                            <Col size="md-12">
-                                <Input />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col size="md-12">
-                                <Input />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col size="md-12">
-                                <TextArea />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col size="md-12">
-                                <FormBtn>Submit</FormBtn>
-                            </Col>
-                        </Row>
-
- */
