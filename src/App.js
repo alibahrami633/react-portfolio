@@ -4,16 +4,15 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
-import NoMatch from "./pages/NoMatch";
+// import NoMatch from "./pages/NoMatch";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper"
-
-
+import "./style.css";
 
 function App() {
   return (
     <Router>
-      <>
+      <div className="grad-bg">
         <Nav />
         <Wrapper>
           <Switch>
@@ -25,7 +24,7 @@ function App() {
           </Switch>
         </Wrapper>
         <Footer />
-      </>
+      </div>
     </Router >
   );
 }
