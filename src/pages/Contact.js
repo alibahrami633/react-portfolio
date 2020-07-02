@@ -72,6 +72,9 @@ function Contact() {
                             </FormBtn>
                         </form>
                     </Col>
+                    <Col size="md-6">
+
+                    </Col>
                 </Row>
             </Maincontent>
         </Container>);
