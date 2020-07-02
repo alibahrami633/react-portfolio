@@ -17,7 +17,7 @@ function App() {
         <Nav />
         <Wrapper>
           <Switch>
-            <Route exact path={["/", "/home"]} component={Home} />
+            <Route path={["/home"]} component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
             <Route component={Home} />

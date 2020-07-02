@@ -11,6 +11,9 @@ function Nav() {
       <Container>
         <div className="navbar-header">
           <img src={aliImageUrl} alt="Ali Bahrami" />
+          <NavLink to="/home" className="navbar-brand" style={{ color: '#ffcc00' }} >
+            Ali Bahrami
+          </NavLink>
           <a href="/home" className="navbar-brand" style={{ color: '#ffcc00' }}>Ali Bahrami</a>
         </div>
         <div>
@@ -23,7 +26,7 @@ function Nav() {
                   activeClassName="nav-link active"
                 >
                   Home
-            </NavLink>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink
@@ -32,7 +35,7 @@ function Nav() {
                   activeClassName="nav-link active"
                 >
                   Portfolio
-            </NavLink>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink
@@ -41,7 +44,7 @@ function Nav() {
                   activeClassName="active"
                 >
                   Contact
-            </NavLink>
+                </NavLink>
               </li>
             </ul>
           </div>
