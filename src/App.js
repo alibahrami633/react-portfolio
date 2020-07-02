@@ -17,9 +17,9 @@ function App() {
         <Nav />
         <Wrapper>
           <Switch>
-            <Route exact path={["/", "/home"]} component={Home} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
+            <Route path={["/", "/home"]} component={Home} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
             <Route component={NoMatch} />
           </Switch>
         </Wrapper>
