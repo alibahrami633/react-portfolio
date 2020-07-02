@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "../components/Grid";
 import Pageheader from "../components/Pageheader";
-import Modal from "../components/Modal";
+// import Modal from "../components/Modal";
 import Maincontent from "../components/Maincontent"
 import { Input, TextArea, FormBtn } from "../components/Form";
 import Utilities from "../utils/API";
