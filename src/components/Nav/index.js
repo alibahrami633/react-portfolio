@@ -14,7 +14,6 @@ function Nav() {
           <NavLink to="/home" className="navbar-brand" style={{ color: '#ffcc00' }} >
             Ali Bahrami
           </NavLink>
-          <a href="/home" className="navbar-brand" style={{ color: '#ffcc00' }}>Ali Bahrami</a>
         </div>
         <div>
           <div className="collapse navbar-collapse " id="collapsibleNavbar">
