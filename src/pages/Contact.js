@@ -23,6 +23,8 @@ function Contact() {
             let message = formObject.message.trim();
             let emailMessage = `Ali Bahrami Contact Form Submission | Name: ${name} | Email: ${email} | Message: ${message}`;
 
+            document.getElementById("submit-btn").disabled = true;
+
             try {
                 const result = await Utilities.sendMail(emailMessage);
                 if (result) {
@@ -65,6 +67,7 @@ function Contact() {
                                 placeholder="Message (Optional)"
                             />
                             <FormBtn
+                                id="submit-btn"
                                 disabled={!(formObject.name && formObject.email && formObject.message)}
                                 onClick={handleFormSubmit}
                             >
