@@ -4,11 +4,12 @@ import Pageheader from "../components/Pageheader";
 // import Modal from "../components/Modal";
 import Maincontent from "../components/Maincontent"
 import { Input, TextArea, FormBtn } from "../components/Form";
+import Map from "../components/Map";
 import Utilities from "../utils/API";
 import "./style.css";
 
 function Contact() {
-    const [formObject, setFormObject] = useState({})
+    const [formObject, setFormObject] = useState({});
 
     function handleInputChange(event) {
         const { name, value } = event.target;
@@ -35,8 +36,6 @@ function Contact() {
                 console.log(error)
                 alert("Failure!");
             }
-
-
         }
     };
 
@@ -76,7 +75,7 @@ function Contact() {
                         </form>
                     </Col>
                     <Col size="md-6">
-
+                        <Map />
                     </Col>
                 </Row>
             </Maincontent>
