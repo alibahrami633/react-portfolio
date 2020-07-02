@@ -2,7 +2,6 @@
 
 ## Decription
 <hr/>
-<p>
         This project is developed based on Single Page Application approach using React.js.
 
         The navigation and other events occuring on the application will not reload the whole page and works as one page.
@@ -14,7 +13,6 @@
         The project uses Bootstrap for the main styling and uses CSS for slight styling changes.
 
         The contact page sends the message to the website owner through a form using ReactJS library API.
-</p>
 <hr/>
 <br>
 
