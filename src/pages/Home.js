@@ -4,7 +4,7 @@ import Pageheader from "../components/Pageheader";
 import Maincontent from "../components/Maincontent"
 import "./style.css";
 import resumeUrl from "../assets/documents/AliBahrami-Resume.pdf";
-import aliPicUrl from "../assets/images/pic-ali.jpg";
+import aliPicUrl from "../assets/images/ali-portfolio-website.png";
 
 function Home() {
     return (
@@ -18,16 +18,16 @@ function Home() {
                 <Row>
                     <Col size="md-6">
                         <Row>
-                            <Col size="md-12 xl-7">
+                            <Col size="md-12 xl-6">
                                 <div className="poem">
                                     <p>Where ever I live, <br />
                                     the sky is mine...</p>
                                     <h2 className="name-cite">Sohrab Sepehri</h2>
                                 </div>
                             </Col>
-                            <Col size="md-12 xl-5">
+                            <Col size="md-12 xl-6">
                                 <div className="image-holder">
-                                    <img src={aliPicUrl} alt="Ali Bahrami" />
+                                    <img className="image-holder" src={aliPicUrl} alt="Ali Bahrami" />
                                 </div>
                             </Col>
                         </Row>
