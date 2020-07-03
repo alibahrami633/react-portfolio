@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40c38dc2479a140561cf3a06b86ac00e",
+    "revision": "a9618897e799a177b69ef7bf0f5baaf4",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "0c3052bff6b4db577502",
-    "url": "/react-portfolio/static/css/main.54400ef5.chunk.css"
+    "revision": "8f5b29b52a95fa68c1b3",
+    "url": "/react-portfolio/static/css/main.eed670d2.chunk.css"
   },
   {
-    "revision": "143de7f518f363ca4ae7",
-    "url": "/react-portfolio/static/js/2.bd010653.chunk.js"
+    "revision": "9412a2dd934f6024cff6",
+    "url": "/react-portfolio/static/js/2.c95c2fcb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-portfolio/static/js/2.bd010653.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.c95c2fcb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c3052bff6b4db577502",
-    "url": "/react-portfolio/static/js/main.36d923be.chunk.js"
+    "revision": "8f5b29b52a95fa68c1b3",
+    "url": "/react-portfolio/static/js/main.4e4a009d.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "31db89a33d498fcbc4d54d0fb4a695b2",
     "url": "/react-portfolio/static/media/AliBahrami-Resume.31db89a3.pdf"
+  },
+  {
+    "revision": "bb32c0adaf17159028bc881cbd1be678",
+    "url": "/react-portfolio/static/media/ali-portfolio-website.bb32c0ad.png"
   },
   {
     "revision": "1fb3d5844c54f20f79284860178a11f5",

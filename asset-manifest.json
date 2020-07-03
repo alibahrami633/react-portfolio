@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.54400ef5.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.36d923be.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.36d923be.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.eed670d2.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.4e4a009d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.4e4a009d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/js/2.bd010653.chunk.js": "/react-portfolio/static/js/2.bd010653.chunk.js",
-    "static/js/2.bd010653.chunk.js.map": "/react-portfolio/static/js/2.bd010653.chunk.js.map",
+    "static/js/2.c95c2fcb.chunk.js": "/react-portfolio/static/js/2.c95c2fcb.chunk.js",
+    "static/js/2.c95c2fcb.chunk.js.map": "/react-portfolio/static/js/2.c95c2fcb.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.2a724c8a6d538a761a8d916f2bc7f4b7.js": "/react-portfolio/precache-manifest.2a724c8a6d538a761a8d916f2bc7f4b7.js",
+    "precache-manifest.97e1dc12e91d8c5e9e875c079b1ac529.js": "/react-portfolio/precache-manifest.97e1dc12e91d8c5e9e875c079b1ac529.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.54400ef5.chunk.css.map": "/react-portfolio/static/css/main.54400ef5.chunk.css.map",
-    "static/js/2.bd010653.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.bd010653.chunk.js.LICENSE.txt",
+    "static/css/main.eed670d2.chunk.css.map": "/react-portfolio/static/css/main.eed670d2.chunk.css.map",
+    "static/js/2.c95c2fcb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c95c2fcb.chunk.js.LICENSE.txt",
     "static/media/AliBahrami-Resume.pdf": "/react-portfolio/static/media/AliBahrami-Resume.31db89a3.pdf",
+    "static/media/ali-portfolio-website.png": "/react-portfolio/static/media/ali-portfolio-website.bb32c0ad.png",
     "static/media/evch-finder.png": "/react-portfolio/static/media/evch-finder.1fb3d584.png",
     "static/media/randomPasswordGenrator.png": "/react-portfolio/static/media/randomPasswordGenrator.f17273ab.png",
     "static/media/weatherDashboard.png": "/react-portfolio/static/media/weatherDashboard.8107e8dd.png",
@@ -20,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
-    "static/js/2.bd010653.chunk.js",
-    "static/css/main.54400ef5.chunk.css",
-    "static/js/main.36d923be.chunk.js"
+    "static/js/2.c95c2fcb.chunk.js",
+    "static/css/main.eed670d2.chunk.css",
+    "static/js/main.4e4a009d.chunk.js"
   ]
 }
