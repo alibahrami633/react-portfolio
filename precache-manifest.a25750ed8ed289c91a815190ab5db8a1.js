@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac6eccac67109086543b3735a7578702",
+    "revision": "59b587d57722240cba4669e14e283465",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "d2ac54bc64c327b9a540",
-    "url": "/react-portfolio/static/css/main.744e04f5.chunk.css"
+    "revision": "810d7fcfa546fa2c9b21",
+    "url": "/react-portfolio/static/css/main.df6f834b.chunk.css"
   },
   {
-    "revision": "bdfd3a7a9e6d7cd872e8",
-    "url": "/react-portfolio/static/js/2.51be6095.chunk.js"
+    "revision": "ba5b9393a08309fbfa41",
+    "url": "/react-portfolio/static/js/2.bd5eb939.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-portfolio/static/js/2.51be6095.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.bd5eb939.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2ac54bc64c327b9a540",
-    "url": "/react-portfolio/static/js/main.e2c9d294.chunk.js"
+    "revision": "810d7fcfa546fa2c9b21",
+    "url": "/react-portfolio/static/js/main.bb640db1.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -32,12 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/ali-portfolio-website.bb32c0ad.png"
   },
   {
+    "revision": "b8722b298cd65f44080febc02f9b3b58",
+    "url": "/react-portfolio/static/media/cryptofolio.b8722b29.png"
+  },
+  {
+    "revision": "34ee8208860efdccdd09bc702c28ac9f",
+    "url": "/react-portfolio/static/media/employee-directory.34ee8208.png"
+  },
+  {
     "revision": "1fb3d5844c54f20f79284860178a11f5",
     "url": "/react-portfolio/static/media/evch-finder.1fb3d584.png"
   },
   {
-    "revision": "f17273abdc54033fd509882a3d14b0b0",
-    "url": "/react-portfolio/static/media/randomPasswordGenrator.f17273ab.png"
+    "revision": "d179ea35c1e9e8d36a8f07931d10a021",
+    "url": "/react-portfolio/static/media/fitness-tracker.d179ea35.png"
   },
   {
     "revision": "8107e8dd79fffb0dd70418c744cb371d",
