@@ -1,6 +1,14 @@
+.large {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(110, 110, 110);
+}
+
 @media screen and (min-width: 576px) {
     .large iframe{
-        width: 30em;
-        height: 20em;
+        width: 25em;
+        height: 15em;
+        padding-left: 1em;
+        
     }
 }

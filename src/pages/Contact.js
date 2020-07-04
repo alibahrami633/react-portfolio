@@ -3,9 +3,10 @@ import { Container, Row, Col } from "../components/Grid";
 import Pageheader from "../components/Pageheader";
 // import Modal from "../components/Modal";
 import Maincontent from "../components/Maincontent"
-import { Input, TextArea, FormBtn } from "../components/Form";
+import { Form, Input, TextArea, FormBtn } from "../components/Form";
 import Map from "../components/Map";
 import Utilities from "../utils/API";
+import ContactInfo from "../components/ContactInfo";
 import "./style.css";
 
 function Contact() {
@@ -49,7 +50,7 @@ function Contact() {
             <Maincontent>
                 <Row>
                     <Col size="md-6">
-                        <form id="contact-form">
+                        <Form id="contact-form">
                             <Input
                                 onChange={handleInputChange}
                                 name="name"
@@ -72,10 +73,19 @@ function Contact() {
                             >
                                 Send Message
                             </FormBtn>
-                        </form>
+                        </Form>
                     </Col>
                     <Col size="md-6">
-                        <Map />
+                        <Row>
+                            <Col size="xl-6 md-12">
+                                <Map />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col size="xl-6 md-12">
+                                <ContactInfo />
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Maincontent>
