@@ -17,11 +17,14 @@
 }
 
 .window-mode h5 {
+    border-top: 1px solid #d4c39c;
+    border-bottom: 1px solid #d4c39c;
+    padding-top: 0.5em;
+    padding-bottom: 0.5rem;
+    background-color: #251a00a6;
     text-align: center;
     margin: auto;
     font-weight: bold;
-    border-bottom: 1px solid #d4c39c;
-    padding-bottom: 0.5rem;
 }
 
 .portfolio-image {
@@ -36,6 +39,20 @@
 
 .project-links {
     text-align: center;
+}
+
+.project-links p {
+    font-style: italic;
+    font-size: 13px;
+    text-align: left;
+}
+
+.project-links h6 {
+    background-color: #382600a6;
+    border-bottom: 1px solid #d4c39c;
+    border-top: 1px solid #d4c39c;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
 
 .project-links a:focus, .project-links a:hover {
