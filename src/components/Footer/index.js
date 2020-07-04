@@ -9,7 +9,7 @@ function Footer() {
           <div className="col-md-6 left-align">
             <div className="icon-anchor inline-block">
               <i className="fab fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/ali-bahrami-baa87325/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/alibahrami633/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
                         </a>
             </div>
