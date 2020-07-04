@@ -62,4 +62,9 @@ footer i, i {
   text-align: right;
 }
 
+@media screen and (max-width: 992px) {
+  footer {
+    visibility: hidden;
+  }
+}
 

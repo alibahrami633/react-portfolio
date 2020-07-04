@@ -24,7 +24,12 @@
 .image-holder {
     padding: 0rem 0.5rem 0.5rem 0rem; 
     margin-bottom: 0.5rem;
-    width: 100%; 
+    width: 50%; 
+    float: right;
+}
+
+.image-holder img {
+    width: 100%;
 }
 
 .poem {
@@ -61,3 +66,7 @@
 	}
 
 /* *****************************  */
+
+.image-text p {
+    text-align: distribute;
+}
