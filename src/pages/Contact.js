@@ -31,11 +31,11 @@ function Contact() {
                 const result = await Utilities.sendMail(emailMessage);
                 if (result) {
                     document.getElementById("contact-form").reset();
-                    alert("Success!");
+                    alert("Your message was sent successfully!");
                 }
             } catch (error) {
                 console.log(error)
-                alert("Failure!");
+                alert("Message snding process failed...");
             }
         }
     };
@@ -77,12 +77,12 @@ function Contact() {
                     </Col>
                     <Col size="md-6">
                         <Row>
-                            <Col size="xl-6 md-12">
+                            <Col size="md-12">
                                 <Map />
                             </Col>
                         </Row>
                         <Row>
-                            <Col size="xl-6 md-12">
+                            <Col size="md-12">
                                 <ContactInfo />
                             </Col>
                         </Row>

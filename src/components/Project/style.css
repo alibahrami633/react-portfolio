@@ -1,7 +1,7 @@
 
 
 .window-mode {
-    border: 1px solid rgb(15, 15, 15);
+    border: 1px solid #0f0f0f;
     box-shadow: 1px 1px 5px #333;
     border-radius: 5px;
     padding: 1rem;
@@ -20,7 +20,7 @@
     text-align: center;
     margin: auto;
     font-weight: bold;
-    border-bottom: 1px solid rgb(39, 39, 39);
+    border-bottom: 1px solid #d4c39c;
     padding-bottom: 0.5rem;
 }
 
