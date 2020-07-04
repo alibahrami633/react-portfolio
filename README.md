@@ -2,17 +2,15 @@
 
 ## Decription
 <hr/>
-        This project is developed based on Single Page Application approach using React.js.
-
+        <p>
+        React Portfolio is a Single-Page-Application (SPA) template which can be used for personal websites with three pages home, portfolio, and contact pages. 
+        Its pages can be easily extended as it uses React route and switch.
         The navigation and other events occuring on the application will not reload the whole page and works as one page.
-
         It is component-based and all the components are reusable for later projects.
-
         It is considered as a template for the future developments.
-
         The project uses Bootstrap for the main styling and uses CSS for slight styling changes.
-
         The contact page sends the message to the website owner through a form using ReactJS library API.
+        </p>
 <hr/>
 <br>
 
@@ -28,7 +26,7 @@
 
 <hr/>
 <p>
-    <a href="https://alibahrami633.github.io/react-portfolio/" target="_blank">Deployed Application </a>
+    Deployed Application:<a href="https://alibahrami633.github.io/react-portfolio/" target="_blank"> https://alibahrami633.github.io/react-portfolio/</a>
 </p>
 <hr/>
 <br>
