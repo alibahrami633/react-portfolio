@@ -68,5 +68,6 @@
 /* *****************************  */
 
 .image-text p {
-    text-align: distribute;
+    text-align: justify;
+    hyphens: auto;
 }
