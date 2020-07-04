@@ -41,45 +41,6 @@ function Home() {
                                     </p>
                                 </div>
                             </div>
-                            {/* <Col size="md-12 xl-6">
-                                <div className="poem">
-                                    <p>Where ever I live, <br />
-                                    the sky is mine...</p>
-                                    <h2 className="name-cite">Sohrab Sepehri</h2>
-                                </div>
-                            </Col>
-                            <Col size="md-12 xl-6">
-                                <div className="image-holder">
-                                    <img className="image-holder" src={aliPicUrl} alt="Ali Bahrami" />
-                                </div>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col size="md-12">
-                                <h4 className="cool-link">About Me</h4>
-                                <p>
-                                    Full Stack Web Developer with experience in Digital Design and Animation.
-                                <br />
-                                I have gained a Master's degree in Information Technology including a Software
-                                Development major and
-                                recently graduated from Monash University Coding Bootcamp and earned a Full-Stack Web
-                                development certificate, with newly developed skills in bootstrap, React.js, Node.js in
-                                addition to previous skills in HTML, CSS, JavaScript and responsive web design.
-                                <br />
-                                Strong leadership and teamwork skills demonstrated by successfully leading a team of
-                                five
-                                resulting in a High Distinction grade motivates me to confront any challenges
-                                independently or as part of a team in my future professional career.
-                                <br />
-                                Passionate about solving web and software challenges and collaborating with others to
-                                build new web and
-                                software solutions.
-                                <br />
-                                My technical competence in cutting edge web technologies in addition
-                                to self-learning skills make me a strong addition to any web stack position in a web
-                                development team.
-                            </p>
-                            </Col> */}
                         </Row>
                     </Col>
                     <Col size="md-6">

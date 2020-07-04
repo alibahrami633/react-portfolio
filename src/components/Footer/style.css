@@ -1,7 +1,7 @@
 footer {
   color: rgb(160, 160, 160);
   text-align: center;
-  background-color: #3f3f3f;
+  background-color: #000000;
   /* margin: auto; */
   margin-top: 20px;
   padding-top: 10px;
@@ -43,7 +43,7 @@ footer i, i {
 .box-shadow-style {
   /* background-color: #61892F; */
   color: white;
-  box-shadow: 1px 1px 10px 3px rgb(56, 56, 56);
+  box-shadow: 1px 1px 10px 1px rgb(65, 65, 65);
 }
 
 .left-align {

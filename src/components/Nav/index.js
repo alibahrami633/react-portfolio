@@ -7,7 +7,7 @@ import aliImageUrl from "../../assets/images/pic-ali.jpg";
 function Nav() {
 
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
       <Container>
         <div className="navbar-header">
           <img src={aliImageUrl} alt="Ali Bahrami" />

@@ -8,6 +8,11 @@
     color: #ffcc00;
 }
 
+nav {
+    background-color: #000000;
+    box-shadow: 1px 1px 2px 1px rgb(65, 65, 65);
+}
+
 @media screen and (min-width: 576px) {
     #collapsibleNavbar {
         margin-left: 500px;

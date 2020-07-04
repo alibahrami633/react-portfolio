@@ -1,20 +1,26 @@
+
+
 .window-mode {
-    border: 1px solid rgb(169, 173, 163);
+    border: 1px solid rgb(15, 15, 15);
+    box-shadow: 1px 1px 5px #333;
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem;
-    /* text-align: left; */
+    color: #d4c39c;
+    background-color: #080808a8;
+    /* background-image: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 96%,transparent 96%, transparent 100%),radial-gradient(circle at 14% 15%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 60% 90%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 79% 7%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 78%,transparent 78%, transparent 100%),radial-gradient(circle at 55% 65%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 52%,transparent 52%, transparent 100%),linear-gradient(135deg, rgba(132,66,0, 0.6509803921568628),rgba(77,40,0, 0.6509803921568628)); */
 }
 
 .window-mode a {
-    text-decoration: none;    
+    text-decoration: none; 
+    color: #d4c39c;   
 }
 
 .window-mode h5 {
     text-align: center;
     margin: auto;
     font-weight: bold;
-    border-bottom: 1px solid rgb(169, 173, 163);
+    border-bottom: 1px solid rgb(39, 39, 39);
     padding-bottom: 0.5rem;
 }
 
@@ -36,11 +42,6 @@
   
     color: rgb(255, 217, 0);
     text-decoration: none;
-  }
-
-.project-links a {
-    font-family: 'Roboto', sans-serif;
-    color: black;
   }
 
 .portfolio img {
