@@ -30,7 +30,7 @@ export function FormBtn(props) {
 export function Form(props) {
   return (
     <>
-      <form id="contact-form">
+      <form {...props}>
         {props.children}
       </form>
       <div className="mobile-view-line-breaker"></div>
