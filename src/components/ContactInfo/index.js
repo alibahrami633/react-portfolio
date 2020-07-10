@@ -38,6 +38,12 @@ function ContactInfo() {
                     Twitter
                 </a>
             </div>
+            <div className="icon-anchor">
+                <i className="fa fa-envelope"></i>
+                <a href="mailto: ali.bahrami633@yahoo.com" target="_blank" rel="noopener noreferrer">
+                    Email
+                </a>
+            </div>
         </fieldset>
     );
 }
