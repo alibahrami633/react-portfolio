@@ -28,16 +28,16 @@ function Home() {
                                         Full Stack Web Developer with experience in Digital Design and Animation.
                                     </p>
                                     <p>
-                                        I have gained a Master's degree in Information Technology including a Software Development major and recently graduated from Monash University Coding Bootcamp and earned a Full-Stack Web development certificate, with newly developed skills in bootstrap, React.js, Node.js in addition to previous skills in HTML, CSS, JavaScript and responsive web design.
+                                        I have gained a master's degree in Information Technology including a Software Development major and recently graduated from Monash University Coding Bootcamp and earned a full-stack web development certificate, with newly developed skills in bootstrap, React.js, Node.js in addition to previous skills in HTML, CSS, JavaScript and responsive web design.
                                     </p>
                                     <p>
-                                        Strong leadership and teamwork skills demonstrated by successfully leading a team of five resulting in a High Distinction grade motivates me to confront any challenges independently or as part of a team in my future professional career.
+                                        Strong leadership and teamwork skills demonstrated by successfully leading a team of five resulting in a high distinction grade. I am motivated to confront any challenges independently or as part of a team in my future career.
                                     </p>
                                     <p>
                                         Passionate about solving web and software challenges and collaborating with others to build new web and software solutions.
                                     </p>
                                     <p>
-                                        My technical competence in cutting edge web technologies in addition to self-learning skills make me a strong addition to any web stack position in a web development team.
+                                        My technical competence in cutting edge web technologies in addition to believing in life-long learning make me a strong addition to any in a web development team.
                                     </p>
                                 </div>
                             </div>
