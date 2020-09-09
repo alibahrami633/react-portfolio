@@ -5,6 +5,7 @@ import Pageheader from "../components/Pageheader";
 import Maincontent from "../components/Maincontent";
 import "./style.css";
 
+import url0 from "../assets/images/gymento.png";
 import url1 from "../assets/images/evch-finder.png";
 import url2 from "../assets/images/workdayScheduler.png";
 import url3 from "../assets/images/weatherDashboard.png";
@@ -14,6 +15,14 @@ import url6 from "../assets/images/cryptofolio.png";
 
 function Portfolio() {
     const projects = [
+        {
+            headTitle: "Gymento - Gym Social Network",
+            imageUrl: url0,
+            alt: "Gymento Gym Social Network",
+            demoUrl: "https://gymento.web.app/",
+            repoUrl: "https://github.com/alibahrami633/gymento-project",
+            description: "Gymento is a Gym social media application built to make the communication between trainers and trainees easier. It utilizes MERN stack for the implementation."
+        },
         {
             headTitle: "Electric Vehicle Charging Station Finder",
             imageUrl: url1,
