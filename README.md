@@ -26,7 +26,7 @@
 
 <hr/>
 <p>
-    Deployed Application:<a href="https://alibahrami633.github.io/react-portfolio/" target="_blank"> https://alibahrami633.github.io/react-portfolio/</a>
+    Deployed Application:<a href="https://alibahrami.web.app" target="_blank">AliBahrami.web.app</a>
 </p>
 <hr/>
 <br>
