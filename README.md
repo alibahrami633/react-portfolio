@@ -26,7 +26,7 @@
 
 <hr/>
 <p>
-    Deployed Application:<a href="https://alibahrami.web.app" target="_blank">AliBahrami.web.app</a>
+    Deployed Application:<a href="https://alibahrami.web.app" target="_blank"> AliBahrami.web.app</a>
 </p>
 <hr/>
 <br>
